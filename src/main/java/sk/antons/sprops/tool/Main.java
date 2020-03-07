@@ -33,7 +33,10 @@ public class Main {
         else if(args.isSet("-encode", "--encode")) return new EncodeCommand();
         else if(args.isSet("-decode", "--decode")) return new DecodeCommand();
         else if(args.isSet("-fencode", "--fencode")) return new FileEncodeCommand();
+        else if(args.isSet("-fencodeall", "--fencodeall")) return new FileEncodeAllCommand();
         else if(args.isSet("-fdecode", "--fdecode")) return new FileDecodeCommand();
+        else if(args.isSet("-fdecodeall", "--fdecodeall")) return new FileDecodeAllCommand();
+        else if(args.isSet("-fshow", "--fshow")) return new FileShowCommand();
         else return null;
     }
 
@@ -112,7 +115,10 @@ public class Main {
             .single("-encode").pair("--encode")
             .single("-decode").pair("--decode")
             .pair("-fencode").pair("--fencode")
+            .pair("-fencodeall").pair("--fencodeall")
             .pair("-fdecode").pair("--fdecode")
+            .pair("-fdecodeall").pair("--fdecodeall")
+            .pair("-fshow").pair("--fshow")
             .parse(params);
 
         process(args);
