@@ -108,6 +108,6 @@ first moment of starting application
    <dependency>
       <groupId>com.github.antonsjava</groupId>
       <artifactId>sprops</artifactId>
-      <version>1.0</version>
+      <version>1.1</version>
    </dependency>
 ```

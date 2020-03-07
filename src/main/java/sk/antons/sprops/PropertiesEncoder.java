@@ -40,7 +40,7 @@ public class PropertiesEncoder extends AbstractEncoder {
 
     /**
      * Add another properties. 
-     * @param props 
+     * @param props properties to add
      */
     public void addProperties(Properties props) {
         if(props == null) return;
@@ -51,7 +51,7 @@ public class PropertiesEncoder extends AbstractEncoder {
     
     /**
      * Add another properties. 
-     * @param props 
+     * @param propsis properties to add
      */
     public void addProperties(InputStream propsis) {
         if(props == null) return;
