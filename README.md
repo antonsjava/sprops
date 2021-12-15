@@ -106,8 +106,8 @@ first moment of starting application
 
 ```
    <dependency>
-      <groupId>com.github.antonsjava</groupId>
+      <groupId>io.github.antonsjava</groupId>
       <artifactId>sprops</artifactId>
-      <version>1.1</version>
+      <version>LATESTVERSION</version>
    </dependency>
 ```
